@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "rss-reader"
+version = "0.1.0"
+description = ""
+authors = ["Hans <hans.buss@mailfence.com>"]
+readme = "README.md"
+packages = [{include = "rss_reader"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+feedparser = "^6.0.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
